@@ -50,7 +50,7 @@ Scenario Outline:1Persona Anonima
 	Then Espera de 5
 	Then Clic en el BtnDatoDocumento
 	Then Espera de 5
-	When subo el archivo BtnSeleccionarArchivo en en el campo C:\Users\yulia\source\repos\Proceso 168016  sgdetest\Datos\Elemento 10027 2022-04-11 13-37-51.zip
+	When subo el archivo BtnSeleccionarArchivo en en el campo C:\Users\yulia\Desktop\Proceso 168016  sgdetest\Datos\Elemento 10027 2022-04-11 13-37-51.zip
 	Then Espera de 5
 	And Toma pantallazo
 	Then Espera de 5

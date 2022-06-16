@@ -10,9 +10,54 @@ using TechTalk.SpecFlow;
 namespace Proceso_168016__sgdetest.StepDefinations
 {
     [Binding]
-    public class BloqueoSesionSteps
-
+    public class Proceso
     {
+        [When(@"Cambie al frame (.*)")]
+        public void WhenCambieAlFrameX(string elemvaluefind)
+        {
+            TimeSpan.FromSeconds(10);
+            EntityClass ele = JsonClass.Get_entity(elemvaluefind);
+            var eleText = FindElemenstClass.GetDriver(ele.GetFieldBy, ele.ValueToFind);
+        }
+
+        [Then(@"Escribo en el campo (.*) ingreso (.*)")]
+        public void ThenEscriboEnElCampoXIngresoY(string elemvaluefind, string text)
+        {
+            TimeSpan.FromSeconds(10);
+            EntityClass ele = JsonClass.Get_entity(elemvaluefind);
+            var eleText = FindElemenstClass.GetElement(ele.GetFieldBy, ele.ValueToFind);
+
+
+            CustomBaseClass.EnterText3(eleText, text);
+        }
+
+        [When(@"subo el archivo (.*) en en el campo (.*)")]
+        public void WhenSuboElArchivoXEnEnElCampoY(string elemvaluefind, string text)
+        {
+            TimeSpan.FromSeconds(10);
+            EntityClass ele = JsonClass.Get_entity(elemvaluefind);
+            var eleText = FindElemenstClass.GetElement(ele.GetFieldBy, ele.ValueToFind);
+
+
+            CustomBaseClass.CargarArchivo(eleText, text);
+        }
+
+        [When(@"salir del iframe")]
+        public void WhenSalirDelIframe()
+        {
+            FindElemenstClass._driver.SwitchTo().ParentFrame();
+        }
+
+        [When(@"pegar referencia del caso (.*)")]
+        public void WhenPegarReferenciaDelCasoV(String elemvaluefind)
+        {
+            TimeSpan.FromSeconds(10);
+            EntityClass ele = JsonClass.Get_entity(elemvaluefind);
+            var eleText = FindElemenstClass.GetElement(ele.GetFieldBy, ele.ValueToFind);
+
+
+            CustomBaseClass.ctrlv(eleText);
+        }
 
         static String JsonGlobal;
         [Then(@"El usuario es redirecionado (.*)")]
@@ -217,12 +262,12 @@ namespace Proceso_168016__sgdetest.StepDefinations
         [When(@"validacion inconsistencias (.*)")]
         public void WhenValidacionInconsistenciasX(string elemvalue)
         {
-            try 
+            try
             {
                 EntityClass elem = JsonClass.Get_entity(elemvalue);
                 var elementoo = FindElemenstClass.GetElement(elem.GetFieldBy, elem.ValueToFind);
                 AssertClass.IsElementPresent(elementoo);
-               
+
 
             }
             catch (Exception E)
@@ -270,8 +315,6 @@ namespace Proceso_168016__sgdetest.StepDefinations
             GeneralHook.AfterScenario();
 
         }
-
-
 
     }
 }
