@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yulia\\source\\repos\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj": {}
+    "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yulia\\source\\repos\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj": {
+    "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yulia\\source\\repos\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
+        "projectUniqueName": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
         "projectName": "Proceso 168016 sgdetest",
-        "projectPath": "C:\\Users\\yulia\\source\\repos\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
+        "projectPath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
         "packagesPath": "C:\\Users\\yulia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yulia\\source\\repos\\Proceso 168016  sgdetest\\obj\\",
+        "outputPath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
