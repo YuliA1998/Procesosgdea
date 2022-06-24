@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StepDefinations"
   ],
-  "SelectedNode": "\\sgdetest.sln",
+  "SelectedNode": "\\StepDefinations\\LoginSteps.cs",
   "PreviewInSolutionExplorer": false
 }
