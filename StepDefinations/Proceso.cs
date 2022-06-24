@@ -4,8 +4,7 @@ using System;
 using TechTalk.SpecFlow;
 using Proceso_168016__sgdetest.TestData;
 using OpenQA.Selenium;
-using System;
-using TechTalk.SpecFlow;
+
 
 namespace Proceso_168016__sgdetest.StepDefinations
 {
