@@ -9,7 +9,7 @@ using OpenQA.Selenium;
 namespace Proceso_168016__sgdetest.StepDefinations
 {
     [Binding]
-    public class Proceso
+    public class ProcesoSteps
     {
         [When(@"Cambie al frame (.*)")]
         public void WhenCambieAlFrameX(string elemvaluefind)
@@ -307,13 +307,13 @@ namespace Proceso_168016__sgdetest.StepDefinations
             CustomBaseClass.Maximizewindow();
         }
 
-        [Then(@"Toma pantallazo")]
-        public void ThenTomaPantallazo()
-        {
+        //[Then(@"Toma pantallazo")]
+        //public void ThenTomaPantallazo()
+        //{
 
-            GeneralHook.AfterScenario();
+        //    GeneralHook.AfterScenario();
 
-        }
+        //}
 
     }
 }
