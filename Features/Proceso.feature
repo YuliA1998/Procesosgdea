@@ -1,23 +1,17 @@
 ﻿Feature:Proceso
 
-#Background: 
-#	Given Usurio navega en el inicio de  External  sesion Chrome
-#	And Cargo el  DOM de la app: Loginn
-#	When Usuario se logea con credenciales OpheliaSuite y validPassword en los campos textUsername y textPassword
-#	Then Espera de 5
-#	And Click en el boton
-#	Then Espera de 15
-#    #Then User should be able to login succesfully Yuly Johana Aristizabal T
-
-
-@External
-Scenario Outline:1Persona Anonima
-    Given Usurio navega en el inicio de  External  sesion Chrome
+Background: 
+	Given Usurio navega en el inicio de  External  sesion Chrome
 	And Cargo el  DOM de la app: Loginn
 	When Usuario se logea con credenciales OpheliaSuite y validPassword en los campos textUsername y textPassword
 	Then Espera de 5
 	And Click en el boton
-	#Then Espera de 15
+	Then Espera de 15
+    #Then User should be able to login succesfully Yuly Johana Aristizabal T
+
+
+@External
+Scenario Outline:1Persona Anonima
     Then Espera de 20
 	When Cargo el  DOM de la app: EscenarioPrincipal
 	Then Espera de 10
