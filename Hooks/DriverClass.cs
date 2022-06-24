@@ -23,11 +23,20 @@ namespace Proceso_168016__sgdetest.Hooks
             {
                 if (Browser == "Chrome")
                 {
+                    //var chromeOptions = new ChromeOptions
+                    //{
+                    //    BinaryLocation = @"C:\Program Files\Google\Chrome\Application\chrome.exe",
+                    //    //DebuggerAddress = "127.0.0.1:9222"
+                    //};
+
+                    //chromeOptions.AddArguments(new List<string>() { "no-sandbox", "headless", "disable-gpu" });
+
+                    //var _driver = new ChromeDriver(chromeOptions);
                     ChromeOptions ChromeOptions = new ChromeOptions();
                     ChromeOptions.AddAdditionalCapability("useAutomationExtension", false);
                     ChromeOptions.AddArguments("--start-maximized");
                     ChromeOptions.AddArguments("--no-sandbox");
-                    //ChromeOptions.AddArgument("--headless");
+                    ChromeOptions.AddArgument("--headless");
                     CustomBaseClass.MyDriver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), ChromeOptions);
                     CustomBaseClass.MyDriver.Navigate().GoToUrl(BaseURL);
                     PageLoaded("userName", "name");
