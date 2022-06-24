@@ -179,3 +179,5 @@ C:\Users\yulia\Desktop\Proceso 168016  sgdetest\obj\Debug\net5.0\sgdetest.dll
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\obj\Debug\net5.0\ref\sgdetest.dll
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\obj\Debug\net5.0\sgdetest.pdb
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\obj\Debug\net5.0\sgdetest.genruntimeconfig.cache
+C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\chromedriver.exe
+C:\Users\yulia\Desktop\Proceso 168016  sgdetest\obj\Debug\net5.0\sgdetest.csproj.AssemblyReference.cache
