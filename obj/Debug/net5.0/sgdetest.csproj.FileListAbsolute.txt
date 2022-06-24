@@ -8,7 +8,6 @@ C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\nunit.engine.dl
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\nunit.engine.api.dll
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\nunit.engine.core.dll
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\testcentric.engine.metadata.dll
-C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\sgdetest.exe
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\sgdetest.deps.json
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\sgdetest.runtimeconfig.json
 C:\Users\yulia\Desktop\Proceso 168016  sgdetest\bin\Debug\net5.0\sgdetest.runtimeconfig.dev.json
