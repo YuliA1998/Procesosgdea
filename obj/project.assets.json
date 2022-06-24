@@ -10434,9 +10434,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
-      "projectName": "Proceso 168016 sgdetest",
-      "projectPath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
+      "projectUniqueName": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\sgdetest.csproj",
+      "projectName": "sgdetest",
+      "projectPath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\sgdetest.csproj",
       "packagesPath": "C:\\Users\\yulia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\obj\\",
       "projectStyle": "PackageReference",

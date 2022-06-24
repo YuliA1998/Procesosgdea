@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7kM4eXzZ5k9ihgbsIkRf+ePGo9VDxn8ikmawCt4iLC8YZVRM7v0Unm5oIR6d/k0bkcxO4Exu4rk39kLPN/2dPw==",
+  "dgSpecHash": "hafVcBerPG23dW9jgheKi8lzhNzWnSyt0ojpa6HK6rvIzMsdq0GyM6QiMfHmv7eV0y7nwW3B940BGbn34pHoEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\Proceso 168016 sgdetest.csproj",
+  "projectFilePath": "C:\\Users\\yulia\\Desktop\\Proceso 168016  sgdetest\\sgdetest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yulia\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\yulia\\.nuget\\packages\\dnsclient\\1.2.0\\dnsclient.1.2.0.nupkg.sha512",
