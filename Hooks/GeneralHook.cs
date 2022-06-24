@@ -20,7 +20,7 @@ namespace Proceso_168016__sgdetest.Hooks
         [BeforeTestRun]
         public static void BeforeTestRun()
         {
-            _extentHtmlReporter = new ExtentHtmlReporter(@"C:\Users\yulia\Desktop\Proceso 168016  sgdetest\DataInformes\log\");
+            _extentHtmlReporter = new ExtentHtmlReporter(@"C:\Users\yulia\OneDrive - digitalware.com.co\Informes sgdea");
             _extentHtmlReporter.Config.ReportName = "testreport.html";
             _extentHtmlReporter.Config.Theme = AventStack.ExtentReports.Reporter.Configuration.Theme.Dark;
             _extentReports = new ExtentReports();
@@ -80,7 +80,7 @@ namespace Proceso_168016__sgdetest.Hooks
         {
             if (_scenarioContext.TestError != null)
             {
-                string name = @"C:\Users\yulia\Desktop\Proceso 168016  sgdetest\DataInformes\log\" + _scenarioContext.ScenarioInfo.Title.Replace(" ", "") + ".jpeg";
+                string name = @"C:\Users\yulia\OneDrive - digitalware.com.co\Informes sgdea" + _scenarioContext.ScenarioInfo.Title.Replace(" ", "") + ".jpeg";
                 GenericHelper.TakeScreenShot(name);
                 _scenario.CreateNode<T>(_scenarioContext.StepContext.StepInfo.Text).Fail(_scenarioContext.TestError.Message + "\n" + _scenarioContext.TestError.StackTrace)
                     .AddScreenCaptureFromPath(name);
@@ -131,7 +131,7 @@ namespace Proceso_168016__sgdetest.Hooks
             //if (_scenarioContext.TestError != null)
 
             {
-                string name = @"C:\Users\yulia\Desktop\Proceso 168016  sgdetest\DataInformes\log\" + DateTime.UtcNow.ToString("yyyy-MM-dd-mm-ss") + ".jpeg";
+                string name = @"C:\Users\yulia\OneDrive - digitalware.com.co\Informes sgdea" + DateTime.UtcNow.ToString("yyyy-MM-dd-mm-ss") + ".jpeg";
                 GenericHelper.TakeScreenShot(name);
                 _scenario.AddScreenCaptureFromPath(name);
                 //GenericHelper.TakeScreenShot("testdir",name);
