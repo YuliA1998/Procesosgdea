@@ -10,7 +10,6 @@ Background:
 	Then Espera de 15
     #Then User should be able to login succesfully Yuly Johana Aristizabal T
 
-
 @External
 Scenario Outline:1Persona Anonima
     Then Espera de 20
