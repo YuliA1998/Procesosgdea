@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Proceso_168016__sgdetest</RootNamespace>
+    <PublishChromeDriver>true</PublishChromeDriver>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +22,9 @@
     <PackageReference Include="SpecFlow" Version="3.10.2-beta" />
     <PackageReference Include="SpecFlow.NUnit" Version="3.10.2-beta" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.10.2-beta" />
+    <Content Include="$(TargetDir)\Drivers\chromedriver.exe" CopyToPublishDirectory="Always">
+		<Link>chromedriver.exe</Link>
+	</Content>
   </ItemGroup>
 
   <ItemGroup>
